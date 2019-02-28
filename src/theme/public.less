@@ -1,0 +1,51 @@
+@defaultFontColor: #303030;
+@white: #FFFFFF;
+@red: #FF6000;
+@grey: #F8F8F8;
+@blue: #2F69F8;
+@green: #31AD37;
+@22: #222222;
+@6a: #6A6A6A;
+@333: #333333;
+@a2: #A2A2A2;
+@d8: #D8D8D8;
+@deActiveColor: #838383;
+
+@largeSize: 20px;
+@bigSize: 18px;
+@size: 16px;
+@smallSize: 14px;
+@miniSize: 12px;
+
+html, body {
+  //font-family:PingFangSC-Medium,tahoma,arial,"Hiragino Sans GB",simsun,sans-serif;
+  width: 100%;
+  height: 100%;
+  //max-width: 750px;
+  //margin: 0 auto;
+  overflow-x: hidden;
+  line-height: 1;
+  color: @defaultFontColor;
+  background: @white;
+  font-size: @size;
+}
+
+.p5 {
+  padding-top: 5px!important;
+  padding-bottom: 5px!important;
+  font-size: @miniSize;
+}
+.block {
+  padding: 0 5px!important;
+}
+.border0 {
+  border: 0!important;
+}
+
+/* mixins */
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
